@@ -1,3 +1,11 @@
 .App {
   text-align: center;
 }
+footer a {
+  text-decoration: none;
+  color: rgb(10, 44, 106);
+  font-weight: bold;
+}
+.App-header {
+  padding-top: 36px;
+}
