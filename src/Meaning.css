@@ -1,9 +1,91 @@
-.MeaningPar {
-  font-size: 12px;
+.Results {
+  margin-top: 64px;
   text-align: left;
+  border: 1px solid none;
+  box-shadow: 0px 10px 30px 4px rgba(29, 28, 28, 0.08);
+  border-radius: 25px;
+  padding: 32px 24px 64px 24px;
+  max-width: 420px;
+  background-color: rgb(251, 251, 251);
+}
+
+.SearchWord {
+  font-size: 64px;
+  text-align: center;
+  margin-top: 0;
+  color: rgb(56, 56, 189);
+  text-transform: capitalize;
+  margin-bottom: 32px;
+}
+
+.MeaningPar {
+  font-size: 14px;
+  /* text-align: left; */
   letter-spacing: 0.85px;
 }
 
 .MeaningPartOfSpeech {
-  font-size: 14px;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: -1.25px;
+}
+
+.search-form {
+  border-radius: 34px;
+  font-size: 32px;
+  padding-left: 18px;
+  height: 64px;
+  width: 480px;
+  border-style: none;
+  box-shadow: 0px 10px 30px 4px rgba(29, 28, 28, 0.08);
+}
+
+/* MEDIA QUERIES  */
+@media (max-width: 560px) {
+  .search-form {
+    width: 420px;
+  }
+  .App-header {
+    padding-top: 64px;
+  }
+}
+
+@media (max-width: 480px) {
+  .search-form {
+    width: 380px;
+  }
+  .App-header {
+    padding-top: 64px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 420px) {
+  .search-form {
+    width: 330px;
+  }
+  .App-header {
+    padding-top: 72px;
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 380px) {
+  .search-form {
+    width: 280px;
+  }
+}
+
+@media (max-width: 320px) {
+  .search-form {
+    width: 240px;
+  }
+  .App-header {
+    padding-top: 72px;
+    font-size: 20px;
+  }
+
+  .container {
+    height: 100vh;
+  }
 }

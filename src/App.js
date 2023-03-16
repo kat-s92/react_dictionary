@@ -11,8 +11,8 @@ export default function App() {
       </header>
       <main>
 <Dictionary />
-      </main>
       <footer><small>Coded by <a href="https://github.com/kat-s92" target="blank">Katya 👩🏻‍💻</a></small></footer>
+      </main>
       </div>
     </div>
   );

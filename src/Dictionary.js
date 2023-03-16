@@ -6,8 +6,9 @@ import Results from "./Results";
 export default function Dictionary() {
 let [searchWord, setSearchWord]= useState("");
 let [results, setResults] = useState(null);
-/* searchWord state to capture searched word*/
-/* results state to capture results when search is returned, we need to track it for Results.js component*/
+// default value of results state is null, we can also check if {} is empty in Results.js > more complex
+// searchWord state to capture searched word
+// results state to capture results when search is returned, we need to track it for Results.js component
 
 function handleResponse(response) {
   console.log(response.data[0].meanings[0].definitions[0].definition);
@@ -25,7 +26,8 @@ function handleSearchWordChange(event) {
 }
 return(<div className="Dictionary">
   <form onSubmit={search}>
-  <input type="search" autoFocus={true} onChange={handleSearchWordChange}/></form>
+  <input class="search-form" type="search" autoFocus={true} onChange={handleSearchWordChange}/></form>
 <Results results={results}/>
+  { /*component name, property name, property value*/}
 </div>);
 }

@@ -1,11 +1,23 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(242, 247, 252);
+  height: 120vh;
 }
 footer a {
   text-decoration: none;
   color: rgb(10, 44, 106);
   font-weight: bold;
 }
+
 .App-header {
   padding-top: 36px;
+  font-size: 32px;
+  font-family: "Sono", sans-serif;
+  letter-spacing: -3px;
 }
+
+/* .container {
+  height: 100vh;
+} */
