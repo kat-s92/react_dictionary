@@ -1,10 +1,15 @@
+#root {
+  height: 100vh;
+  width: 100vw;
+}
+
 .App {
   margin: 0;
   text-align: center;
   display: flex;
   justify-content: center;
   background-color: rgb(242, 247, 252);
-  height: 100vh;
+  height: 100%;
 }
 footer a {
   text-decoration: none;
@@ -21,4 +26,5 @@ footer {
   font-size: 32px;
   font-family: "Sono", sans-serif;
   letter-spacing: -3px;
+  color: rgb(35, 35, 118);
 }
