@@ -36,8 +36,13 @@
   padding-left: 18px;
   height: 64px;
   width: 480px;
+  color: rgb(7, 7, 36);
   border-style: none;
   box-shadow: 0px 10px 30px 4px rgba(29, 28, 28, 0.08);
+}
+
+.search-form::placeholder {
+  color: rgba(128, 128, 128, 0.423);
 }
 
 /* MEDIA QUERIES  */
@@ -83,9 +88,5 @@
   .App-header {
     padding-top: 72px;
     font-size: 20px;
-  }
-
-  .container {
-    height: 100vh;
   }
 }

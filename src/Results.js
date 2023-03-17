@@ -4,7 +4,7 @@ import Meaning from "./Meaning"
 import "./Results.css"
 
 export default function Results(props) {
-  // console.log(props.results)
+
   if (props.results)
   // by default there is nothing in Results, it's empty
   {
@@ -17,7 +17,7 @@ export default function Results(props) {
   // return meaning.definitions[0].definition;
   {
     return (
-    <div key={index}>
+      <div key={index}>
       <Meaning meaning={meaning} />
     </div>
   );

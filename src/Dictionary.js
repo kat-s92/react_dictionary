@@ -26,7 +26,7 @@ function handleSearchWordChange(event) {
 }
 return(<div className="Dictionary">
   <form onSubmit={search}>
-  <input class="search-form" type="search" autoFocus={true} onChange={handleSearchWordChange}/></form>
+  <input class="search-form" type="search" placeholder="Type here" autoFocus={true} onChange={handleSearchWordChange}/></form>
 <Results results={results}/>
   { /*component name, property name, property value*/}
 </div>);
